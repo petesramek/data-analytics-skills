@@ -9,7 +9,6 @@ venv/
 ENV/
 build/
 develop-eggs/
-dist/
 downloads/
 eggs/
 .eggs/
@@ -23,6 +22,9 @@ wheels/
 .installed.cfg
 *.egg
 
+# Generated skill ZIP packages
+dist/
+
 # Jupyter Notebook
 .ipynb_checkpoints
 *.ipynb
@@ -33,6 +35,11 @@ wheels/
 # IDE
 .vscode/
 .idea/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 *.swp
 *.swo
 *~
