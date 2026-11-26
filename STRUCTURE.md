@@ -31,57 +31,57 @@ Every skill lives inside its category folder. Most skills follow this full layou
 ### 01-data-quality-validation/ — 3 skills
 | Skill | scripts | references | assets |
 |-------|:-------:|:----------:|:------:|
-| programmatic-eda | ✓ | ✓ | ✓ |
-| data-quality-audit | ✓ | ✓ | ✓ |
-| query-validation | ✓ | ✓ | ✓ |
+| das-programmatic-eda | ✓ | ✓ | ✓ |
+| das-data-quality-audit | ✓ | ✓ | ✓ |
+| das-query-validation | ✓ | ✓ | ✓ |
 
 ### 02-documentation-knowledge/ — 7 skills
 | Skill | scripts | references | assets |
 |-------|:-------:|:----------:|:------:|
-| semantic-model-builder | ✓ | ✓ | ✓ |
-| analysis-documentation | — | ✓ | ✓ |
-| data-catalog-entry | ✓ | ✓ | ✓ |
-| sql-to-business-logic | ✓ | ✓ | ✓ |
-| analysis-assumptions-log | ✓ | ✓ | ✓ |
-| metric-reconciliation | ✓ | ✓ | ✓ |
-| schema-mapper | ✓ | ✓ | ✓ |
+| das-semantic-model-builder | ✓ | ✓ | ✓ |
+| das-analysis-documentation | — | ✓ | ✓ |
+| das-data-catalog-entry | ✓ | ✓ | ✓ |
+| das-sql-to-business-logic | ✓ | ✓ | ✓ |
+| das-analysis-assumptions-log | ✓ | ✓ | ✓ |
+| das-metric-reconciliation | ✓ | ✓ | ✓ |
+| das-schema-mapper | ✓ | ✓ | ✓ |
 
 ### 03-data-analysis-investigation/ — 7 skills
 | Skill | scripts | references | assets |
 |-------|:-------:|:----------:|:------:|
-| cohort-analysis | ✓ | ✓ | ✓ |
-| segmentation-analysis | ✓ | ✓ | ✓ |
-| funnel-analysis | ✓ | ✓ | ✓ |
-| time-series-analysis | ✓ | ✓ | ✓ |
-| root-cause-investigation | ✓ | ✓ | ✓ |
-| ab-test-analysis | ✓ | ✓ | ✓ |
-| business-metrics-calculator | ✓ | ✓ | ✓ |
+| das-cohort-analysis | ✓ | ✓ | ✓ |
+| das-segmentation-analysis | ✓ | ✓ | ✓ |
+| das-funnel-analysis | ✓ | ✓ | ✓ |
+| das-time-series-analysis | ✓ | ✓ | ✓ |
+| das-root-cause-investigation | ✓ | ✓ | ✓ |
+| das-ab-test-analysis | ✓ | ✓ | ✓ |
+| das-business-metrics-calculator | ✓ | ✓ | ✓ |
 
 ### 04-data-storytelling-visualization/ — 5 skills
 | Skill | scripts | references | assets |
 |-------|:-------:|:----------:|:------:|
-| insight-synthesis | — | ✓ | ✓ |
-| visualization-builder | ✓ | ✓ | ✓ |
-| executive-summary-generator | — | ✓ | ✓ |
-| dashboard-specification | — | ✓ | ✓ |
-| data-narrative-builder | — | ✓ | ✓ |
+| das-insight-synthesis | — | ✓ | ✓ |
+| das-visualization-builder | ✓ | ✓ | ✓ |
+| das-executive-summary-generator | — | ✓ | ✓ |
+| das-dashboard-specification | — | ✓ | ✓ |
+| das-data-narrative-builder | — | ✓ | ✓ |
 
 ### 05-stakeholder-communication/ — 5 skills
 | Skill | scripts | references | assets |
 |-------|:-------:|:----------:|:------:|
-| technical-to-business-translator | ✓ | ✓ | ✓ |
-| stakeholder-requirements-gathering | — | ✓ | ✓ |
-| analysis-qa-checklist | ✓ | ✓ | ✓ |
-| methodology-explainer | — | ✓ | ✓ |
-| impact-quantification | ✓ | ✓ | ✓ |
+| das-technical-to-business-translator | ✓ | ✓ | ✓ |
+| das-stakeholder-requirements-gathering | — | ✓ | ✓ |
+| das-analysis-qa-checklist | ✓ | ✓ | ✓ |
+| das-methodology-explainer | — | ✓ | ✓ |
+| das-impact-quantification | ✓ | ✓ | ✓ |
 
 ### 06-workflow-optimization/ — 4 skills
 | Skill | scripts | references | assets |
 |-------|:-------:|:----------:|:------:|
-| analysis-planning | — | ✓ | ✓ |
-| context-packager | ✓ | ✓ | ✓ |
-| peer-review-template | — | ✓ | ✓ |
-| analysis-retrospective | — | ✓ | ✓ |
+| das-analysis-planning | — | ✓ | ✓ |
+| das-context-packager | ✓ | ✓ | ✓ |
+| das-peer-review-template | — | ✓ | ✓ |
+| das-analysis-retrospective | — | ✓ | ✓ |
 
 ## Summary Statistics
 

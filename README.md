@@ -57,9 +57,9 @@ Each skill asks targeted questions to gather exactly what it needs, then execute
 
 | Skill | What it does |
 |-------|-------------|
-| **[programmatic-eda](01-data-quality-validation/programmatic-eda/)** | Systematic exploratory data analysis with automated sanity checks |
-| **[data-quality-audit](01-data-quality-validation/data-quality-audit/)** | Comprehensive quality assessment against business rules and schema |
-| **[query-validation](01-data-quality-validation/query-validation/)** | SQL review for correctness, performance, and edge cases |
+| **[das-programmatic-eda](01-data-quality-validation/das-programmatic-eda/)** | Systematic exploratory data analysis with automated sanity checks |
+| **[das-data-quality-audit](01-data-quality-validation/das-data-quality-audit/)** | Comprehensive quality assessment against business rules and schema |
+| **[das-query-validation](01-data-quality-validation/das-query-validation/)** | SQL review for correctness, performance, and edge cases |
 
 </details>
 
@@ -71,13 +71,13 @@ Each skill asks targeted questions to gather exactly what it needs, then execute
 
 | Skill | What it does |
 |-------|-------------|
-| **[semantic-model-builder](02-documentation-knowledge/semantic-model-builder/)** | Create a shared semantic layer for key metrics and dimensions |
-| **[analysis-documentation](02-documentation-knowledge/analysis-documentation/)** | Document findings with reproducible methodology |
-| **[data-catalog-entry](02-documentation-knowledge/data-catalog-entry/)** | Standardized metadata and descriptions for data assets |
-| **[sql-to-business-logic](02-documentation-knowledge/sql-to-business-logic/)** | Translate complex SQL into plain business language |
-| **[analysis-assumptions-log](02-documentation-knowledge/analysis-assumptions-log/)** | Track every assumption and decision in an analysis |
-| **[metric-reconciliation](02-documentation-knowledge/metric-reconciliation/)** | Trace and resolve discrepancies when metric sources disagree |
-| **[schema-mapper](02-documentation-knowledge/schema-mapper/)** | Column-level mapping between source and target schemas |
+| **[das-semantic-model-builder](02-documentation-knowledge/das-semantic-model-builder/)** | Create a shared semantic layer for key metrics and dimensions |
+| **[das-analysis-documentation](02-documentation-knowledge/das-analysis-documentation/)** | Document findings with reproducible methodology |
+| **[das-data-catalog-entry](02-documentation-knowledge/das-data-catalog-entry/)** | Standardized metadata and descriptions for data assets |
+| **[das-sql-to-business-logic](02-documentation-knowledge/das-sql-to-business-logic/)** | Translate complex SQL into plain business language |
+| **[das-analysis-assumptions-log](02-documentation-knowledge/das-analysis-assumptions-log/)** | Track every assumption and decision in an analysis |
+| **[das-metric-reconciliation](02-documentation-knowledge/das-metric-reconciliation/)** | Trace and resolve discrepancies when metric sources disagree |
+| **[das-schema-mapper](02-documentation-knowledge/das-schema-mapper/)** | Column-level mapping between source and target schemas |
 
 </details>
 
@@ -89,13 +89,13 @@ Each skill asks targeted questions to gather exactly what it needs, then execute
 
 | Skill | What it does |
 |-------|-------------|
-| **[cohort-analysis](03-data-analysis-investigation/cohort-analysis/)** | Time-based cohort tracking with retention curves |
-| **[segmentation-analysis](03-data-analysis-investigation/segmentation-analysis/)** | Customer/user segmentation with actionable profiles |
-| **[funnel-analysis](03-data-analysis-investigation/funnel-analysis/)** | Conversion funnel with drop-off root-cause |
-| **[time-series-analysis](03-data-analysis-investigation/time-series-analysis/)** | Trend detection, seasonality, and forecasting |
-| **[root-cause-investigation](03-data-analysis-investigation/root-cause-investigation/)** | Structured diagnosis of unexpected metric changes |
-| **[ab-test-analysis](03-data-analysis-investigation/ab-test-analysis/)** | Rigorous experiment analysis with significance testing |
-| **[business-metrics-calculator](03-data-analysis-investigation/business-metrics-calculator/)** | Standard business metric calculation with benchmarks |
+| **[das-cohort-analysis](03-data-analysis-investigation/das-cohort-analysis/)** | Time-based cohort tracking with retention curves |
+| **[das-segmentation-analysis](03-data-analysis-investigation/das-segmentation-analysis/)** | Customer/user segmentation with actionable profiles |
+| **[das-funnel-analysis](03-data-analysis-investigation/das-funnel-analysis/)** | Conversion funnel with drop-off root-cause |
+| **[das-time-series-analysis](03-data-analysis-investigation/das-time-series-analysis/)** | Trend detection, seasonality, and forecasting |
+| **[das-root-cause-investigation](03-data-analysis-investigation/das-root-cause-investigation/)** | Structured diagnosis of unexpected metric changes |
+| **[das-ab-test-analysis](03-data-analysis-investigation/das-ab-test-analysis/)** | Rigorous experiment analysis with significance testing |
+| **[das-business-metrics-calculator](03-data-analysis-investigation/das-business-metrics-calculator/)** | Standard business metric calculation with benchmarks |
 
 </details>
 
@@ -107,11 +107,11 @@ Each skill asks targeted questions to gather exactly what it needs, then execute
 
 | Skill | What it does |
 |-------|-------------|
-| **[insight-synthesis](04-data-storytelling-visualization/insight-synthesis/)** | Structure analysis outputs into clear business insights |
-| **[visualization-builder](04-data-storytelling-visualization/visualization-builder/)** | Chart type selection, design guidance, and spec generation |
-| **[executive-summary-generator](04-data-storytelling-visualization/executive-summary-generator/)** | Concise executive-ready summaries of complex analysis |
-| **[dashboard-specification](04-data-storytelling-visualization/dashboard-specification/)** | Full dashboard requirements with metrics and layout |
-| **[data-narrative-builder](04-data-storytelling-visualization/data-narrative-builder/)** | Craft a compelling story arc from analytical findings |
+| **[das-insight-synthesis](04-data-storytelling-visualization/das-insight-synthesis/)** | Structure analysis outputs into clear business insights |
+| **[das-visualization-builder](04-data-storytelling-visualization/das-visualization-builder/)** | Chart type selection, design guidance, and spec generation |
+| **[das-executive-summary-generator](04-data-storytelling-visualization/das-executive-summary-generator/)** | Concise executive-ready summaries of complex analysis |
+| **[das-dashboard-specification](04-data-storytelling-visualization/das-dashboard-specification/)** | Full dashboard requirements with metrics and layout |
+| **[das-data-narrative-builder](04-data-storytelling-visualization/das-data-narrative-builder/)** | Craft a compelling story arc from analytical findings |
 
 </details>
 
@@ -123,11 +123,11 @@ Each skill asks targeted questions to gather exactly what it needs, then execute
 
 | Skill | What it does |
 |-------|-------------|
-| **[technical-to-business-translator](05-stakeholder-communication/technical-to-business-translator/)** | Reframe technical findings for a business audience |
-| **[stakeholder-requirements-gathering](05-stakeholder-communication/stakeholder-requirements-gathering/)** | Structured elicitation to clarify what stakeholders actually need |
-| **[analysis-qa-checklist](05-stakeholder-communication/analysis-qa-checklist/)** | Pre-delivery quality gate before sharing results |
-| **[methodology-explainer](05-stakeholder-communication/methodology-explainer/)** | Explain analysis approach to any audience level |
-| **[impact-quantification](05-stakeholder-communication/impact-quantification/)** | Estimate and frame the business impact of findings |
+| **[das-technical-to-business-translator](05-stakeholder-communication/das-technical-to-business-translator/)** | Reframe technical findings for a business audience |
+| **[das-stakeholder-requirements-gathering](05-stakeholder-communication/das-stakeholder-requirements-gathering/)** | Structured elicitation to clarify what stakeholders actually need |
+| **[das-analysis-qa-checklist](05-stakeholder-communication/das-analysis-qa-checklist/)** | Pre-delivery quality gate before sharing results |
+| **[das-methodology-explainer](05-stakeholder-communication/das-methodology-explainer/)** | Explain analysis approach to any audience level |
+| **[das-impact-quantification](05-stakeholder-communication/das-impact-quantification/)** | Estimate and frame the business impact of findings |
 
 </details>
 
@@ -139,10 +139,10 @@ Each skill asks targeted questions to gather exactly what it needs, then execute
 
 | Skill | What it does |
 |-------|-------------|
-| **[analysis-planning](06-workflow-optimization/analysis-planning/)** | Structure the approach before diving in |
-| **[context-packager](06-workflow-optimization/context-packager/)** | Package context efficiently for AI-assisted analysis |
-| **[peer-review-template](06-workflow-optimization/peer-review-template/)** | Structured peer review checklist for analytical work |
-| **[analysis-retrospective](06-workflow-optimization/analysis-retrospective/)** | Post-analysis learning and process improvement |
+| **[das-analysis-planning](06-workflow-optimization/das-analysis-planning/)** | Structure the approach before diving in |
+| **[das-context-packager](06-workflow-optimization/das-context-packager/)** | Package context efficiently for AI-assisted analysis |
+| **[das-peer-review-template](06-workflow-optimization/das-peer-review-template/)** | Structured peer review checklist for analytical work |
+| **[das-analysis-retrospective](06-workflow-optimization/das-analysis-retrospective/)** | Post-analysis learning and process improvement |
 
 </details>
 
@@ -171,13 +171,13 @@ git clone https://github.com/nimrodfisher/data-analytics-skills.git
 **Claude Code:** personal skills (all projects) go in `~/.claude/skills/`, project skills in `.claude/skills/` inside your project:
 
 ```bash
-cp -r 01-data-quality-validation/programmatic-eda ~/.claude/skills/
+cp -r 01-data-quality-validation/das-programmatic-eda ~/.claude/skills/
 ```
 
 **Codex:** user skills (all repos) go in `~/.agents/skills/`, repo skills in `.agents/skills/` at the repository root:
 
 ```bash
-cp -r 01-data-quality-validation/programmatic-eda ~/.agents/skills/
+cp -r 01-data-quality-validation/das-programmatic-eda ~/.agents/skills/
 ```
 
 New here? [QUICKSTART.md](./QUICKSTART.md) walks you through your first skill in 5 minutes, and [STRUCTURE.md](./STRUCTURE.md) explains how every skill is packaged.
@@ -189,7 +189,7 @@ New here? [QUICKSTART.md](./QUICKSTART.md) walks you through your first skill in
 
 ```
 You:    "I need to understand why our activation rate dropped 12% last week"
-Agent:  [activates root-cause-investigation, asks for metric data and context]
+Agent:  [activates das-root-cause-investigation, asks for metric data and context]
 You:    [provides data and business context]
 Agent:  [runs structured investigation with hypothesis testing]
 ```
@@ -198,14 +198,14 @@ Agent:  [runs structured investigation with hypothesis testing]
 
 | You need to... | Start here |
 |---------------|-----------|
-| Explore an unfamiliar dataset | `programmatic-eda` → `data-quality-audit` |
-| Write or review SQL | `query-validation` + `schema-mapper` |
-| Understand a metric drop/spike | `root-cause-investigation` |
-| Analyze experiment results | `ab-test-analysis` |
-| Build a dashboard | `dashboard-specification` + `visualization-builder` |
-| Present to leadership | `executive-summary-generator` + `insight-synthesis` |
-| Document your methodology | `analysis-documentation` + `analysis-assumptions-log` |
-| Start a complex analysis | `analysis-planning` first, always |
+| Explore an unfamiliar dataset | `das-programmatic-eda` → `das-data-quality-audit` |
+| Write or review SQL | `das-query-validation` + `das-schema-mapper` |
+| Understand a metric drop/spike | `das-root-cause-investigation` |
+| Analyze experiment results | `das-ab-test-analysis` |
+| Build a dashboard | `das-dashboard-specification` + `das-visualization-builder` |
+| Present to leadership | `das-executive-summary-generator` + `das-insight-synthesis` |
+| Document your methodology | `das-analysis-documentation` + `das-analysis-assumptions-log` |
+| Start a complex analysis | `das-analysis-planning` first, always |
 
 ---
 
@@ -243,13 +243,13 @@ Your agent will pull this context automatically when the skill runs.
 ## 🎓 Suggested ramp-up
 
 **Week 1 — Get comfortable**
-- Run `programmatic-eda` on a familiar dataset
+- Run `das-programmatic-eda` on a familiar dataset
 - Practice providing context when your agent asks
-- Use `analysis-planning` at the start of your next project
+- Use `das-analysis-planning` at the start of your next project
 
 **Week 2–3 — Add your core toolkit**
-- Set up `semantic-model-builder` for your key metrics (saves time forever)
-- Add `query-validation` to your SQL workflow
+- Set up `das-semantic-model-builder` for your key metrics (saves time forever)
+- Add `das-query-validation` to your SQL workflow
 - Pick 2 analysis skills that match your domain
 
 **Week 4+ — Go advanced**
