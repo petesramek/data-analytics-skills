@@ -1,0 +1,2 @@
+display_name: "das-query-validation"
+description: "SQL query review for correctness, performance, and best practices. Activate when a query needs review before production use, shows unexpected results, or runs too slowly."

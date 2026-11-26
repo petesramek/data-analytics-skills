@@ -19,8 +19,8 @@ Checks every skill directory for: presence of `SKILL.md`, valid YAML frontmatter
 Each skill's `scripts/` folder contains standalone CLI tools. All accept `--input` or similar flags; most run with synthetic demo data when called without args.
 
 ```bash
-python 01-data-quality-validation/programmatic-eda/scripts/data_overview.py --input data.csv
-python 03-data-analysis-investigation/ab-test-analysis/scripts/ab_test_analyzer.py --control-n 5000 --control-conv 480 --treatment-n 5100 --treatment-conv 530
+python 01-data-quality-validation/das-programmatic-eda/scripts/data_overview.py --input data.csv
+python 03-data-analysis-investigation/das-ab-test-analysis/scripts/ab_test_analyzer.py --control-n 5000 --control-conv 480 --treatment-n 5100 --treatment-conv 530
 ```
 
 ## Architecture
@@ -39,19 +39,19 @@ python 03-data-analysis-investigation/ab-test-analysis/scripts/ab_test_analyzer.
 
 | # | Category | Skills |
 |---|---|---|
-| 01 | data-quality-validation | programmatic-eda, data-quality-audit, query-validation, schema-mapper, metric-reconciliation |
-| 02 | documentation-knowledge | semantic-model-builder, analysis-documentation, data-catalog-entry, sql-to-business-logic, analysis-assumptions-log |
-| 03 | data-analysis-investigation | cohort-analysis, segmentation-analysis, funnel-analysis, time-series-analysis, root-cause-investigation, ab-test-analysis, business-metrics-calculator |
-| 04 | data-storytelling-visualization | insight-synthesis, visualization-builder, executive-summary-generator, dashboard-specification, data-narrative-builder |
-| 05 | stakeholder-communication | technical-to-business-translator, stakeholder-requirements-gathering, analysis-qa-checklist, methodology-explainer, impact-quantification |
-| 06 | workflow-optimization | analysis-planning, context-packager, peer-review-template, analysis-retrospective |
+| 01 | data-quality-validation | das-programmatic-eda, das-data-quality-audit, das-query-validation, das-schema-mapper, das-metric-reconciliation |
+| 02 | documentation-knowledge | das-semantic-model-builder, das-analysis-documentation, das-data-catalog-entry, das-sql-to-business-logic, das-analysis-assumptions-log |
+| 03 | data-analysis-investigation | das-cohort-analysis, das-segmentation-analysis, das-funnel-analysis, das-time-series-analysis, das-root-cause-investigation, das-ab-test-analysis, das-business-metrics-calculator |
+| 04 | data-storytelling-visualization | das-insight-synthesis, das-visualization-builder, das-executive-summary-generator, das-dashboard-specification, das-data-narrative-builder |
+| 05 | stakeholder-communication | das-technical-to-business-translator, das-stakeholder-requirements-gathering, das-analysis-qa-checklist, das-methodology-explainer, das-impact-quantification |
+| 06 | workflow-optimization | das-analysis-planning, das-context-packager, das-peer-review-template, das-analysis-retrospective |
 
 ### Common skill chains
 
-- **New dataset**: `programmatic-eda` → `data-quality-audit` → analysis skills
-- **Metric definition**: `semantic-model-builder` → `analysis-documentation`
-- **Delivering findings**: `insight-synthesis` → `technical-to-business-translator` → `executive-summary-generator`
-- **Any analysis**: `analysis-qa-checklist` + `analysis-assumptions-log` as quality gates
+- **New dataset**: `das-programmatic-eda` → `das-data-quality-audit` → analysis skills
+- **Metric definition**: `das-semantic-model-builder` → `das-analysis-documentation`
+- **Delivering findings**: `das-insight-synthesis` → `das-technical-to-business-translator` → `das-executive-summary-generator`
+- **Any analysis**: `das-analysis-qa-checklist` + `das-analysis-assumptions-log` as quality gates
 
 ## Conventions
 
@@ -82,7 +82,7 @@ The Process section uses numbered steps (typically 6–7). All four sections are
 ### Asset templates
 
 - Markdown templates use `[REQUIRED]` and `[OPTIONAL]` placeholders
-- YAML definitions follow dbt Semantic Layer conventions (see `02-documentation-knowledge/semantic-model-builder/assets/metric_definition.yaml`)
+- YAML definitions follow dbt Semantic Layer conventions (see `02-documentation-knowledge/das-semantic-model-builder/assets/metric_definition.yaml`)
 - HTML templates: self-contained with inline styles (used for heatmaps)
 
 ### Naming
@@ -92,4 +92,4 @@ The Process section uses numbered steps (typically 6–7). All four sections are
 
 ## Exemplar skill
 
-`01-data-quality-validation/programmatic-eda/` is the most complete skill — read it first to understand the expected depth and structure for scripts, references, and assets.
+`01-data-quality-validation/das-programmatic-eda/` is the most complete skill — read it first to understand the expected depth and structure for scripts, references, and assets.

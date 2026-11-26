@@ -24,21 +24,21 @@ cd data-analytics-skills
 **Claude Code:** personal skills (all projects) go in `~/.claude/skills/`, project skills in `.claude/skills/` inside your project:
 
 ```bash
-cp -r 01-data-quality-validation/programmatic-eda ~/.claude/skills/
+cp -r 01-data-quality-validation/das-programmatic-eda ~/.claude/skills/
 ```
 
 **Codex:** user skills (all repos) go in `~/.agents/skills/`, repo skills in `.agents/skills/` at the repository root:
 
 ```bash
-cp -r 01-data-quality-validation/programmatic-eda ~/.agents/skills/
+cp -r 01-data-quality-validation/das-programmatic-eda ~/.agents/skills/
 ```
 
 ### Step 1: Pick a Skill
 
-Start with **programmatic-eda** for your first analysis (already installed above):
+Start with **das-programmatic-eda** for your first analysis (already installed above):
 
 ```
-Location: ~/.claude/skills/programmatic-eda/SKILL.md   (or ~/.agents/skills/ for Codex)
+Location: ~/.claude/skills/das-programmatic-eda/SKILL.md   (or ~/.agents/skills/ for Codex)
 Purpose: Systematic exploratory data analysis
 Best for: Analyzing any new dataset
 ```
@@ -51,7 +51,7 @@ In your conversation with Claude, simply describe what you need:
 You: "I need to do exploratory data analysis on my customer dataset"
 ```
 
-Claude will automatically use the programmatic-eda skill.
+Claude will automatically use the das-programmatic-eda skill.
 
 ### Step 3: Provide Context When Asked
 
@@ -67,7 +67,7 @@ That's it! Claude will execute systematic EDA with checkpoints.
 ### Scenario 1: Analyzing a New Dataset
 
 **Task**: Understand what's in your data  
-**Skill**: `programmatic-eda`
+**Skill**: `das-programmatic-eda`
 
 ```
 You: "Can you analyze this sales dataset for me?"
@@ -79,7 +79,7 @@ Claude: [runs systematic EDA with quality checks]
 ### Scenario 2: Writing SQL Queries
 
 **Task**: Validate a query before running  
-**Skill**: `query-validation`
+**Skill**: `das-query-validation`
 
 ```
 You: "Can you review this SQL query for performance issues?"
@@ -91,7 +91,7 @@ Claude: [validates logic, checks performance, suggests optimizations]
 ### Scenario 3: Analyzing User Retention
 
 **Task**: Understand cohort retention patterns  
-**Skill**: `cohort-analysis`
+**Skill**: `das-cohort-analysis`
 
 ```
 You: "I want to analyze user retention by signup month"
@@ -103,7 +103,7 @@ Claude: [builds retention matrices, creates visualizations, interprets findings]
 ### Scenario 4: Documenting Metrics
 
 **Task**: Create clear metric documentation  
-**Skill**: `semantic-model-builder`
+**Skill**: `das-semantic-model-builder`
 
 ```
 You: "Help me document our MRR calculation"
@@ -115,15 +115,15 @@ Claude: [creates structured documentation optimized for future use]
 ## 🎓 Learning Path
 
 ### Week 1: Foundation
-1. Use `programmatic-eda` on 3 different datasets
+1. Use `das-programmatic-eda` on 3 different datasets
 2. Notice what context Claude requests each time
 3. Try providing different levels of context
 
 **Goal**: Understand the on-demand context pattern
 
 ### Week 2: Expand
-4. Add `query-validation` for SQL work
-5. Try `semantic-model-builder` for your key metrics
+4. Add `das-query-validation` for SQL work
+5. Try `das-semantic-model-builder` for your key metrics
 6. Pick one analysis skill (cohort/funnel/segmentation)
 
 **Goal**: Build a workflow with 3-4 connected skills
@@ -162,10 +162,10 @@ Share this at the start of conversations.
 
 For complex analyses:
 ```
-1. programmatic-eda (understand the data)
-2. cohort-analysis (analyze retention patterns)
-3. insight-synthesis (extract key findings)
-4. executive-summary-generator (create presentation)
+1. das-programmatic-eda (understand the data)
+2. das-cohort-analysis (analyze retention patterns)
+3. das-insight-synthesis (extract key findings)
+4. das-executive-summary-generator (create presentation)
 ```
 
 Each skill builds on the previous one's output.
@@ -200,28 +200,28 @@ Don't skip these - they improve quality!
 ### Pattern: Weekly Metrics Review
 ```
 1. Pull latest data
-2. Use programmatic-eda to check quality
-3. Use business-metrics-calculator for KPIs
-4. Use time-series-analysis to spot anomalies
-5. Use root-cause-investigation if issues found
-6. Use executive-summary-generator for stakeholder update
+2. Use das-programmatic-eda to check quality
+3. Use das-business-metrics-calculator for KPIs
+4. Use das-time-series-analysis to spot anomalies
+5. Use das-root-cause-investigation if issues found
+6. Use das-executive-summary-generator for stakeholder update
 ```
 
 ### Pattern: New Dataset Investigation
 ```
-1. Use programmatic-eda for initial profiling
-2. Use schema-mapper if database is unfamiliar
-3. Use semantic-model-builder to document findings
+1. Use das-programmatic-eda for initial profiling
+2. Use das-schema-mapper if database is unfamiliar
+3. Use das-semantic-model-builder to document findings
 4. Build analysis using appropriate skills
 ```
 
 ### Pattern: Ad-Hoc Analysis Request
 ```
-1. Use stakeholder-requirements-gathering to clarify ask
-2. Use analysis-planning to break down the work
+1. Use das-stakeholder-requirements-gathering to clarify ask
+2. Use das-analysis-planning to break down the work
 3. Execute analysis with relevant skills
-4. Use methodology-explainer to document approach
-5. Use analysis-qa-checklist before delivery
+4. Use das-methodology-explainer to document approach
+5. Use das-analysis-qa-checklist before delivery
 ```
 
 ## 🆘 Troubleshooting
